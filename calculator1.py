@@ -1,3 +1,5 @@
+#coding: utf-8
+
 import sys
 from PyQt5.QtWidgets import QWidget, QGridLayout, QLineEdit, QPushButton, QApplication
 
@@ -34,7 +36,7 @@ class Calculator(QWidget):
         grid.addWidget(self.resultLineEdit, 0, 0, 1, 3)
 
         self.move(300, 150)
-        self.setWindowTitle('计算机')
+        self.setWindowTitle('简易计算器')
         self.show()
 
     def on_button_clicked(self):

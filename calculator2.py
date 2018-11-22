@@ -1,3 +1,5 @@
+#coding: utf-8
+
 from PyQt5.uic import loadUi
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QWidget, QGridLayout, QLineEdit, QPushButton, QApplication, QMainWindow, QActionGroup, QAction
